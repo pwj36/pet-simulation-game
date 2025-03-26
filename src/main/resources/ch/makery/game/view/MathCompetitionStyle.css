@@ -1,0 +1,46 @@
+.background{
+    -fx-background-color: #d2edf1;
+    -fx-background-image: url("../../../../MathCompetitionBackground.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-position:center;
+}
+
+.label{
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+}
+
+.main-label{
+    -fx-font-family: "Cooper Black";
+    -fx-text-fill: white;
+    -fx-font-size: 45px;
+    -fx-alignment: center;
+}
+
+.button{
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-border-width: 1.5px;
+    -fx-border-color: black;
+    -fx-font-family: "Cooper Black"
+}
+
+.button:hover{
+    -fx-background-color: #1b2538;
+    -fx-text-fill: white;
+}
+
+.submit-button{
+    -fx-font-family: "Comic Sans MS";
+    -fx-background-color: #b1d8b7;
+    -fx-text-fill: black;
+}
+
+.submit-button:hover{
+    -fx-background-color: #2a4c09;
+    -fx-text-fill: white;
+}

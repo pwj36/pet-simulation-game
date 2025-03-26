@@ -1,0 +1,53 @@
+.background{
+    -fx-background-color: #d2edf1;
+}
+
+.hBox{
+    -fx-background-color: #fff6af;
+    -fx-border-color: black;
+}
+
+.label{
+    -fx-font-family: "Comic Sans MS";
+}
+
+.main-label{
+    -fx-font-size: 45px;
+    -fx-font-family: "Cooper Black";
+    -fx-alignment: center;
+}
+
+.note-label{
+    -fx-text-fill: red;
+}
+
+.money-label{
+    -fx-font-weight: bold;
+}
+
+.button{
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: black;
+}
+
+.button:hover{
+    -fx-background-color: grey;
+    -fx-text-fill: white;
+}
+
+.goBack-button{
+    -fx-background-color: #1b2538;
+    -fx-text-fill: white;
+    -fx-border-color: black;
+    -fx-font-family: "Cooper Black";
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-border-width: 1px;
+}
+
+.goBack-button:hover{
+    -fx-background-color: grey;
+    -fx-text-fill: black;
+}

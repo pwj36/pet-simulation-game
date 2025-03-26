@@ -1,0 +1,20 @@
+.background{
+    -fx-background-color: #fff6af;
+    -fx-background-image: url("../../../../WelcomePage.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-position:center;
+}
+
+.button{
+    -fx-background-color: #f3c590;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+}
+
+.button:hover{
+    -fx-background-color: #912f1f;
+    -fx-text-fill: white;
+}

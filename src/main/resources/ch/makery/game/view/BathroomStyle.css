@@ -1,0 +1,35 @@
+.background{
+    -fx-background-color: #fff6af;
+    -fx-background-image: url("../../../../Toilet.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-position:center;
+}
+
+.hBox{
+    -fx-background-color: #d2edf1;
+    -fx-border-color: black;
+}
+
+.label{
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+    -fx-background-color: #d2edf1;
+}
+
+.button{
+    -fx-background-color: #d2edf1;
+    -fx-border-color: black;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-border-width: 1.5px;
+    -fx-border-color: black;
+    -fx-font-family: "Cooper Black"
+}
+
+.button:hover{
+    -fx-background-color: #1b2538;
+    -fx-text-fill: white;
+}
+
+

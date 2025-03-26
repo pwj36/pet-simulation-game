@@ -1,0 +1,32 @@
+.background{
+    -fx-background-color: #ffd88a;
+    -fx-background-image: url("../../../../Catwalk.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-position:center;
+}
+
+.button{
+    -fx-background-color: #ffd88a;
+    -fx-border-color: black;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-border-width: 1.5px;
+}
+
+.button:hover{
+    -fx-background-color: #ed6e3a;
+    -fx-text-fill: white;
+}
+
+.label{
+    -fx-font-family: "Comic Sans MS";
+}
+
+.main-label{
+    -fx-font-family: "Cooper Black";
+    -fx-font-size: 30px;
+    -fx-alignment: center;
+}

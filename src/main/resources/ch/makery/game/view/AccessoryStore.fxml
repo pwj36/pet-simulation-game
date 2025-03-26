@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="450.0" prefWidth="800.0" styleClass="background" stylesheets="@AccessoryStoreStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.game.view.AccessoryStoreController">
+   <children>
+      <VBox layoutX="24.0" layoutY="-40.0" prefHeight="450.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="37.0" prefWidth="800.0">
+               <children>
+                  <Label prefHeight="66.0" prefWidth="532.0" styleClass="main-label" text="ACCESSORY STORE" textAlignment="CENTER" />
+                  <Label text="Click on the accessory image to let your guinea pig wear an accessory!">
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label styleClass="note-label" text="NOTE: Changing an accessory would require repurchasing it. ">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="127.0" prefWidth="250.0" spacing="20.0" styleClass="hBox">
+                     <children>
+                        <Label styleClass="money-label" text="Money">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="moneyLabel" prefHeight="22.0" prefWidth="85.0" styleClass="money-label" text="Label" />
+                     </children>
+                     <VBox.margin>
+                        <Insets left="250.0" right="250.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="250.0" prefWidth="800.0" spacing="50.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Button fx:id="firstAccessoryItem" contentDisplay="TOP" mnemonicParsing="false" onAction="#buyAccessory">
+                                 <graphic>
+                                    <ImageView fx:id="firstAccessoryImage" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                 </graphic>
+                              </Button>
+                              <Label fx:id="firstAccessoryPrice" text="Label" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Button fx:id="secondAccessoryItem" contentDisplay="TOP" mnemonicParsing="false" onAction="#buyAccessory">
+                                 <graphic>
+                                    <ImageView fx:id="secondAccessoryImage" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                 </graphic>
+                              </Button>
+                              <Label fx:id="secondAccessoryPrice" text="Label" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#removeAccessory">
+                                 <graphic>
+                                    <ImageView fx:id="removeAccessoryImage" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                 </graphic>
+                              </Button>
+                              <Label text="Remove Accessory" />
+                           </children>
+                        </VBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#goBack" prefHeight="50.0" prefWidth="100.0" styleClass="goBack-button" text="Go Back" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="5.0" />
+               </VBox.margin>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
