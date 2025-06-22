@@ -1,5 +1,19 @@
 # Pet Simulation Game 🐹
 This game allows players to feed, groom, and interact with their guinea pig, as well as send it to work or purchase accessories for it. Players can personalize their guinea pig by choosing its color and will have their progress saved, enabling them to pick up where they left off at any time.
+## 📑 Table of Contents
+1. [🖥️ Technologies Used](#️-technologies-used)
+2. [🕹️ OOP Concepts Used](#️-oop-concepts-used)
+3. [🛠️ Features](#️-features)
+4. [👾 Program Screenshot](#-program-screenshot)
+   - [Main Game Interface](#main-game-interface)
+   - [Function 1: Feeding the Pet (Food Store)](#function-1-feeding-the-pet-food-store)
+   - [Function 2: Grooming the Pet](#function-2-grooming-the-pet)
+   - [Function 3: Work](#function-3-work)
+     - [Pet Show](#pet-show)
+     - [Math Competition](#math-competition)
+   - [Function 4: Purchase Accessory](#function-4-purchase-accessory)
+     - [Accessory Store](#accessory-store)
+     - [Accessory on Pet](#accessory-on-pet)
 ## 🖥️ Technologies Used
 - Programming Language: Scala
 - ScalaFX
